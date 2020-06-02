@@ -28,6 +28,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
   path_provider: ^1.6.8
+  flutter_native_splash: ^0.1.9
+
+flutter_native_splash:
+  image: images/s_screen.png
+  color: "8873d4"
 
 dev_dependencies:
   flutter_test:

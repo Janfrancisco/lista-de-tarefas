@@ -16,7 +16,9 @@
      </item>
      -->
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/splash" />
+        <bitmap 
+        android:gravity="center" 
+        android:src="@mipmap/splash" />
     </item>
 
 </layer-list>

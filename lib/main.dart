@@ -1,9 +1,8 @@
+import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-
-import 'package:flutter/material.dart';
-import 'package:path_provider/path_provider.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -135,8 +134,7 @@ class _HomeState extends State<Home> {
         value: _todoList[index]['ok'],
         secondary: CircleAvatar(
           //child: Icon(_todoList[index]['ok'] ? Icons.check : Icons.error),
-          child: FlutterLogo(
-              colors: _todoList[index]['ok'] ? Colors.purple : Colors.orange),
+          child: FlutterLogo(),
         ),
         onChanged: (value) {
           setState(() {
